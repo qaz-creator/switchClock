@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Switch Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container hide">
+    <div class="clock">
+      <div class="hr" id="hr"></div>
+      <div class="min" id="min"></div>
+      <div class="sec" id="sec"></div>
+    </div>
+  </div>
+  <div class="digital">
+    <div class="date "></div>
+    <div class="digital-clock "></div>
+  </div>
+
+  <!-- Switch btn -->
+  <label class="switch"><input type="checkbox" id="togBtn">
+    <div class="slider round">
+      <!--ADDED HTML --><span class="on">DIGITAL</span><span class="off">ANALOG</span>
+      <!--END-->
+    </div>
+  </label>
+
+  <script src="index.js">
+  </script>
+</body>
+
+</html>
