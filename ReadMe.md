@@ -5,8 +5,8 @@
 3. switch digial clock and clock -> checkbox
 
 ## Method
-1. top, left, transform : to make the content in the center \ 
-flex\
+1. top, left, transform : to make the content in the center \
+ flex \
  absolute: admit as child, ignore siblings\
  before
 2. new Date() \
